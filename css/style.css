@@ -1,0 +1,45 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    user-select: none;
+
+}
+#container {
+    background-image: url(../img/snow.jpg);
+    background-size: cover;
+    background-position: center center;
+    min-height: 100vh;
+    display: flex;
+    flex-flow: wrap column;
+    /* justify-content: center; */
+    padding-top: 5rem;
+    align-items: center;
+}
+h1 {
+    font-size: 4rem;
+    margin: 2rem 0;
+}
+h1, .text, .countdown-el span{
+    color: white;
+    text-shadow: 1px 0px 10px black;
+}
+.container-countdown {
+    display: flex;
+}
+.text {
+    font-size: 3.5rem;
+    font-weight: bolder;
+    line-height: 1;
+    margin: 0 2rem;
+}
+.countdown-el {
+    text-align: center; 
+    width: 8rem;
+}
+.countdown-el span {
+    font-size: 1rem;
+}
